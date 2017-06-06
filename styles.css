@@ -1,0 +1,130 @@
+body{
+    background-color: #dedede;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size:14px;
+}
+.container{
+   max-width: 1100px;
+    box-shadow: 2px 2px 10px 1px;
+    margin: 40px auto;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+
+}
+.column_view,
+.column_form{
+    height:800px;
+    display: flex;
+    flex-direction:column;
+}
+.column_view {
+    background-image: url("backg.jpg");
+    background-size: cover;
+    width:40%;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    border-bottom:1px solid white;
+    padding-bottom: 10px;
+
+}
+#icon{
+    margin-left: 150px;
+}
+.buttonset{
+    display: flex;
+    margin-bottom:30px;
+}
+.btn{
+    width:120px;
+    padding:14px 0;
+    border:none;
+    color: #fff;
+    border-radius:4px;
+}
+.btn:nth-of-type(2),
+.btn:nth-of-type(3){
+    margin-left:10px;
+}
+
+.btn:nth-of-type(1){
+background-color: rgba(53, 53, 53, 0.91);}
+.btn:nth-of-type(2){
+    background-color:#3f7dff;
+}
+.btn:nth-of-type(3){
+    background-color:#31ffbd;
+}
+.column_form{
+    width:50%;
+}
+.inf{
+    width:100%;
+    line-height:28px;
+    border:1px solid green;
+}
+.caption,
+.description{
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom:10px;
+}
+.caption{
+    border-bottom:1px solid rgba(143, 143, 143, 0.88);
+}
+.c1{
+    border:none;
+    padding-bottom:10px;
+}
+.description{
+    justify-content: flex-end;
+}
+.p_info{
+    margin:0 10px;
+}
+.placeholder,
+.here{
+    display: flex;
+    justify-content:space-between;
+}
+.txt1{
+    margin-left:80px;
+}
+.txt3{
+    width:80%;
+}
+.arrow{
+    color: #56f8ff;
+}
+.arrow-up{
+    color: #d80c18;
+}
+.cross_cont{
+    display: flex;
+    justify-content:flex-end;
+}
+.cross{
+
+    width:20px;
+    height:20px;
+    margin:10px 0 10px 10px;
+
+}
+@media (max-width: 745px){
+    .container{
+        flex-direction:column;
+    }
+    .column_view,
+    .column_form{
+        width:100%;
+
+    }
+
+}
